@@ -24,7 +24,7 @@ function onPlaceChanged() {
 }
 
 $(document).ready(function StaticMap() {
-    var key = "AIzaSyCknFUD4K3491O_NGxQQfhhpgIo1AIjzUQ";
+    
     var center = 37.9755 + "+" + 23.7326814;
     document.getElementById("staticMap").src = "https://maps.googleapis.com/maps/api/staticmap?center=" + center + "&zoom=11&scale=1&size=600x200&maptype=roadmap&" +
         "key=" + key +
@@ -33,7 +33,7 @@ $(document).ready(function StaticMap() {
 })
 
 function StaticMap(lat, lng) {
-    var key = "AIzaSyCknFUD4K3491O_NGxQQfhhpgIo1AIjzUQ";
+    
     var center = lat + "+" + lng;
     document.getElementById("staticMap").src = "https://maps.googleapis.com/maps/api/staticmap?center=" + center + "&zoom=11&scale=1&size=600x200&maptype=roadmap&" +
         "key=" + key +
